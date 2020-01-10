@@ -85173,10 +85173,10 @@ var CustomMap =
 function () {
   function CustomMap(idDiv) {
     this.googleMap = new google.maps.Map(document.getElementById(idDiv), {
-      zoom: 1,
+      zoom: 8,
       center: {
-        lat: 0,
-        lng: 0
+        lat: 18.9668848,
+        lng: -70.9278466
       }
     });
   }
@@ -85253,7 +85253,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41417" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44855" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

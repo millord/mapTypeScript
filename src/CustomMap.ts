@@ -16,10 +16,10 @@ export class CustomMap {
   private googleMap: google.maps.Map;
   constructor(idDiv: string) {
     this.googleMap = new google.maps.Map(document.getElementById(idDiv), {
-      zoom: 1,
+      zoom: 8,
       center: {
-        lat: 0,
-        lng: 0
+        lat: 18.9668848,
+        lng: -70.9278466
       }
     });
   }
